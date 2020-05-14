@@ -41,7 +41,7 @@ Verify API endpoint has been created and it works.
 ```
 kubectl get VisitorsApp
 ```
-### 2. Start operator.
+### 2. Start operator
 Start operator in local mode.  
 ```
 operator-sdk run --local --watch-namespace default
@@ -55,7 +55,7 @@ Confirm new `VisitorsApp` resource has been created.
 ```
 kubectl get VisitorsApp
 ```
-### 4. 
+### 4. Verify Operator Works
 Verify each child resource has been created by Operator.
 ```
 kubectl get deploy
