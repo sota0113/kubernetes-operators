@@ -67,3 +67,4 @@ kubectl get secret
 ### Stop Operator
 Execute `Ctrl+C` on shell in which operator works.
 ## Operator as pod on Kubernetes
+Still working on.
