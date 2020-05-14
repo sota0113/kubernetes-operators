@@ -42,7 +42,7 @@ Verify API endpoint has been created and it works.
 kubectl get VisitorsApp
 ```
 ### 2. Start operator
-Start operator in local mode.  
+Start operator in local mode and watch Custom Resource in `default` namespace.  
 ```
 operator-sdk run --local --watch-namespace default
 ```
