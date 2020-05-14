@@ -2,12 +2,12 @@
 This is a sample Golang operator of "Kubernetes Operators: Automating the Container Orchestration Platform".  
 Whole sample codes in this book are published on [GitHub](https://github.com/kubernetes-operators-book/chapters).  
 You can get the book as free e-book from [RedHat official page](https://www.redhat.com/ja/resources/oreilly-kubernetes-operators-automation-ebook) or
-[oreilly](https://learning.oreilly.com/library/view/kubernetes-operators/9781492048039/).
+[oreilly](https://learning.oreilly.com/library/view/kubernetes-operators/9781492048039/).  
 NOTE: Some code of this operator has been modifed or defferent from original one due to defference of components' version.  
 
 # Usage
-Here are usage of this operator.
-## Operator for test on local machine
+There are two types of usage of this operator.
+## (1/2) Operator for test on local machine
 Operator would work on local machine not as container but code itself.  
 ### 0. preparation
 Make sure Kubernetes Cluster is ready, `kubectl` command is configured, `go` and `operator-sdk` command is ready.  
@@ -66,5 +66,5 @@ kubectl get secret
 
 ### 5. Stop Operator
 Execute `Ctrl+C` on shell in which operator works.
-## Operator as pod on Kubernetes
+## (2/2) Operator as pod on Kubernetes
 Still working on.
