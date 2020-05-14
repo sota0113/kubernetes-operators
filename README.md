@@ -7,8 +7,8 @@ If anything goes wrong in this repo, please open issue.(e.g. uncorrent or out of
 There are several element related to operator such as SRE, but they are out of scope in this repo.  
 
 # Table of Contents
-	Prerequirement of Understnding Opearator  
-	What is Operator  
+### Prerequirement of Understnding Opearator  
+### What is Operator  
 # Prerequirement of Understnding Opearator
 Before diving into operator, it is indispensalbe for us to understand how kubernetes works in high,maybe middle, level.  
 
